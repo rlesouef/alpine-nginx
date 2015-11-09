@@ -1,10 +1,9 @@
 alpine-nginx
 ==================
 
-[![](https://badge.imagelayers.io/rlesouef/alpine-redis:latest.svg)](https://imagelayers.io/?images=rlesouef/alpine-redis:latest 'Get your own badge on imagelayers.io')
+[![](https://badge.imagelayers.io/rlesouef/alpine-nginx:latest.svg)](https://imagelayers.io/?images=rlesouef/alpine-nginx:latest 'Get your own badge on imagelayers.io')
 
 Nginx server for Alpine Linux
-
 
 Usage
 -----
