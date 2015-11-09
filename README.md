@@ -3,7 +3,7 @@ alpine-nginx
 
 [![](https://badge.imagelayers.io/rlesouef/alpine-redis:latest.svg)](https://imagelayers.io/?images=rlesouef/alpine-redis:latest 'Get your own badge on imagelayers.io')
 
-Base Docker Image to run Nginx server
+Nginx server for Alpine Linux
 
 
 Usage
