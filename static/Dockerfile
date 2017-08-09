@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Open Source Services [os2.fr]
 
-RUN apk add --update && \
+RUN apk add --update \
     bash nano nginx && \
     rm -rf /var/cache/apk/*
 
