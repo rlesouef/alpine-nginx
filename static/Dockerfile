@@ -1,15 +1,12 @@
 FROM alpine:latest
 MAINTAINER Open Source Services [os2.fr]
 
-ENV PACKAGES bash nano nginx
-
 RUN apk update && \
     apk upgrade && \
-    apk add $PACKAGES && \
+    apk add bash nano nginx && \
     rm -rf /var/cache/apk/*
 
-RUN adduser www-data -G www-data -H -s /bin/false -D && \
-    mkdir /tmp/nginx/
+RUN adduser www-data -G www-data -H -s /bin/false -D
 
 COPY src/ .
 
